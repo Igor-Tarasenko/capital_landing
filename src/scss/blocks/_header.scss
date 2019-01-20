@@ -1,0 +1,117 @@
+header {
+	background: url("../img/first-bg.png") no-repeat;
+	background-size: cover;
+	height: 786px;
+	.logo {
+		margin-top: 45px;
+		text-align: center;
+	}
+	.header-menu, .language {
+		margin-top: 45px;
+		ul {
+			padding-left: 0;
+			list-style-type: none;
+			li {
+				display: inline-block;
+				font-family: $open-font;
+				color: #ffffff;
+				font-size: 15px;
+				font-weight: bold;
+				text-transform: uppercase;
+				margin-left: 40px;
+				border-bottom: 2px solid transparent;
+				transition: .3s;
+				&:hover {
+					border-bottom: 2px solid #2af9fd;
+				}
+			}
+		}
+	}
+	.language {
+		margin-top: 53px;
+		ul {
+			li {
+				margin-left: 0;
+				border: none;
+				&:first-child {
+					border-right: 2px solid #ffffff;
+					padding-right: 5px;
+				}
+				&:hover {
+					border-bottom: none;
+				}
+			}
+			.current-lang {
+				a {
+					border-bottom: 1px solid #ffffff;
+				}
+			}
+		}
+	}
+	.title {
+		margin-top: 118px;
+		p {
+			font-family: $open-font;
+			font-size: 18px;
+			font-weight: 200;
+			color: #ffffff;
+			margin-top: 20px;
+		}
+	}
+	.header-form {
+		margin-top: 40px;
+	}
+	.mouse-img {
+		margin-top: 90px;
+		text-align: center;
+	}
+}
+.btn {
+	background: #18bec1;
+	border-radius: 5px;
+	cursor: pointer;
+	border: none;
+	outline: none;
+	font-family: $m-font;
+	font-size: 18px;
+	font-weight: 900;
+	color: #ffffff;
+	text-transform: uppercase;
+	padding: 12px 0;
+	width: 360px;
+	margin-top: 40px;
+}
+input {
+	width: 100%;
+	border-bottom: 1px solid #0063ea;
+	border-right: none;
+	border-left: none;
+	border-top: none;
+	color: #ffffff;
+	font-family: $open-font;
+	font-size: 18px;
+	padding-bottom: 12px;
+	padding-left: 12px;
+	background: transparent;
+	margin-bottom: 15px;
+	outline: none;
+}
+.two-input {
+	display: flex;
+	justify-content: space-between;
+	.form-group {
+		width: 45%;
+	}
+}
+::-webkit-input-placeholder {
+	color: #ffffff;
+}
+::-moz-placeholder {
+	color: #ffffff;
+}
+:-moz-placeholder {
+	color: #ffffff;
+}
+:-ms-input-placeholder {
+	color: #ffffff;
+}
