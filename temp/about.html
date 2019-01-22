@@ -7,7 +7,7 @@
     <link href="./css/main.css" rel="stylesheet">
 </head>
 <body>
-<header>
+<header class="about-header">
     <div class="container">
         <div class="row">
             <div class="col-lg-3 col-md-5 col-sm-4 col-5 logo">
@@ -45,37 +45,125 @@
                     <li><a href="#">EN</a></li>
                 </ul>
             </div>
-            <div class="col-lg-9 offset-lg-3 title">
-                <h1>Ассоциация трейдеров</h1>
-                <p>Профессиональная трейдерская компания с аналитическим центром, обеспечивающим точные прогнозы для достижения финансового благополучия своих клиентов.</p>
-                <form action="#" class="header-form">
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="ФИО">
-                    </div>
-                    <div class="two-input">
-                        <div class="form-group">
-                            <input type="email" class="form-control" placeholder="E-MAIL">
-                        </div>
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="ТЕЛЕФОН">
-                        </div>
-                    </div>
-                    <button type="submit" class="btn">подобрать трейдера</button>
-                </form>
-            </div>
-            <div class="col-12 mouse-img">
-                <img src="./img/mouse.png" alt="">
+            <div class="col-lg-8 offset-lg-4 title">
+                <h1>Мы независимая<br>трейдерская ассоциация </h1>
             </div>
         </div>
     </div>
 </header>
 <main>
-    <section class="section-1">
+    <section class="license">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 offset-lg-1 section-1_text">
-                    <h2>Наша Миссия</h2>
-                    <p>Развивать инвестиционно-трейдерский рынок в СНГ и мире</p>
+                <div class="col-lg-5 license-text">
+                    <h2>лицензии</h2>
+                    <div class="img-block">
+                        <img src="./img/check.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="slider">
+                        <div id="carousel" class="carousel slide">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="./img/license.png" alt="First slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./img/license.png" alt="Second slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./img/license.png" alt="Third slide">
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            </a>
+                            <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="count-main-block">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="count-block">
+                        <div class="img-block">
+                            <img src="./img/first-img-about.png" alt="">
+                        </div>
+                        <div class="count-block_text">
+                            <p>150+</p>
+                            <p>трейдеров</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="count-block">
+                        <div class="img-block">
+                            <img src="./img/second-img-about.png" alt="">
+                        </div>
+                        <div class="count-block_text">
+                            <p>25+</p>
+                            <p>человек в штате аналитического центра</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="count-block">
+                        <div class="img-block">
+                            <img src="./img/third-img-about.png" alt="">
+                        </div>
+                        <div class="count-block_text">
+                            <p>10+</p>
+                            <p>рынков для торговли</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="count-block">
+                        <div class="img-block">
+                            <img src="./img/fours-img-about.png" alt="">
+                        </div>
+                        <div class="count-block_text">
+                            <p>90+</p>
+                            <p>инвестиционных портфелей в управлении</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="top_traiders">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 title">
+                    <h2>ТОП трейдеры ассоциации:</h2>
+                </div>
+                <div class="col-lg-4 top-people-block">
+                    <div class="top-people">
+                        <div class="top-people_img">
+                            <img src="./img/vitaliy.png" alt="">
+                        </div>
+                        <div class="top-people_text">
+                            <div class="title-text">
+                                <p>Виталий Ким</p>
+                                <p>Старший специалист в области риск и мани менеджмента.</p>
+                            </div>
+                            <div class="hidden-text">
+                                <p>Создание диверсификационных инвестиционных портфелей для институциональных инвесторов.</p>
+                                <p>Опыт работы 16 лет.</p>
+                                <p>На сегодняшний день под управлением 46 инвестиционных портфелей. Общая стоимость которых составляет</p>
+                                <p class="income">$ 2 671 342.00.</p>
+                            </div>
+                            <div class="show-text">
+                                <img src="./img/slider-arrow-hover.png" alt="">
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
