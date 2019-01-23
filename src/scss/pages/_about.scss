@@ -1,5 +1,5 @@
 .about-header {
-	background: url("../img/about-first-bg.png") no-repeat;
+	background: url("../img/about-first-bg.png") no-repeat 50% 0;
 	background-size: cover;
 	height: 477px;
 	.title {
@@ -12,6 +12,7 @@
 .license {
 	background: #261097;
 	padding: 40px 0;
+	margin-top: -2px;
 	h2 {
 		text-align: center;
 		border-bottom: 0;
@@ -133,6 +134,7 @@
 	}
 	.hidden-text {
 		margin-top: 20px;
+		display: none;
 		p {
 			font-family: $open-font;
 			font-size: 16px;
@@ -145,10 +147,62 @@
 		}
 	}
 	.show-text {
-		text-align: center;
 		margin-top: 20px;
-		img {
-			transform: rotate(270deg);
+		cursor: pointer;
+		span {
+			background: url("../img/slider-arrow-hover.png") no-repeat center;
+			width: 100%;
+			height: 39px;
+			display: block;
+			transition: .3s;
+			transform: rotate(-90deg);
 		}
+		.hover {
+			background: url("../img/block-hover.png") no-repeat center;
+			width: 100%;
+			height: 19px;
+			transition: .3s;
+			transform: rotate(0deg);
+		}
+	}
+}
+.block-with-gif {
+	background: #ffb225;
+	padding: 60px 0;
+	.gif-block {
+		border-radius: 10px;
+		overflow: hidden;
+		img {
+			width: 100%;
+			height: 254px;
+		}
+	}
+	.gif-block_text {
+		margin-top: 25px;
+		text-align: center;
+		p {
+			font-family: $m-font;
+			font-weight: 900;
+			color: #fff1b3;
+			font-size: 22px;
+			text-transform: uppercase;
+		}
+	}
+}
+.form-about {
+	p {
+		font-size: 18px;
+	}
+	.description {
+		margin-top: 60px;
+	}
+	.section-2_img {
+		text-align: center;
+		img {
+			height: 275px;
+		}
+	}
+	.section-2_form {
+		margin-top: 0;
 	}
 }

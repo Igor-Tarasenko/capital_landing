@@ -3,6 +3,11 @@
     background-size: initial;
   }
 }
+@media screen and (max-width: 1900px) {
+  .about-header {
+    height: 440px;
+  }
+}
 @media screen and (max-width: 1400px) {
   header {
     background-position: 79% 0;
@@ -14,6 +19,12 @@
   }
   footer .footer-menu ul li {
     margin-left: 23px;
+  }
+  .about-header h1 {
+    font-size: 40px;
+  }
+  .top_traiders .top-people_img {
+    height: 330px;
   }
 }
 @media screen and (max-width: 991px) {
@@ -64,6 +75,37 @@
   .section-1 p {
     font-size: 20px;
   }
+  .about-header {
+    height: 440px;
+    background: url(../img/about-first-bg.png) no-repeat 84% 0;
+  }
+  .license .img-block {
+    margin-top: -25px;
+    img {
+      width: 100%;
+    }
+  }
+  .carousel-item img {
+    max-height: 300px;
+  }
+  .count-main-block {
+    padding: 50px 0 50px 0;
+    .count-block {
+      margin-top: 30px;
+    }
+  }
+  .top_traiders .top-people_img {
+    height: 325px;
+  }
+  .block-with-gif .gif-block img {
+    height: 209px;
+  }
+  .form-about {
+    padding: 0 0 80px 0;
+  }
+  .form-about .section-2_img {
+    margin-top: 30px;
+  }
 }
 @media screen and (max-width: 767px) {
   h1 {
@@ -100,6 +142,26 @@
   }
   footer .phone a {
     background: url(../img/phone.png) no-repeat 0 2px;
+  }
+  .about-header h1 {
+    font-size: 33px;
+  }
+  .license {
+    .license-text {
+      margin-bottom: 30px;
+    }
+    .img-block {
+      margin-top: -50px;
+      img {
+        max-width: 350px;
+      }
+    }
+  }
+  .top_traiders .top-people_img {
+    height: 260px;
+  }
+  .gif-main-block {
+    margin-top: 30px;
   }
 }
 @media screen and (max-width: 575px) {
@@ -142,6 +204,9 @@
   .btn {
     font-size: 16px;
   }
+  .top_traiders .top-people_img {
+    height: auto;
+  }
 }
 @media screen and (max-width: 450px) {
   .two-input {
@@ -172,6 +237,9 @@
     img {
       width: 100%;
     }
+  }
+  .about-header h1 {
+    font-size: 23px;
   }
 }
 @media screen and (max-width: 350px) {
