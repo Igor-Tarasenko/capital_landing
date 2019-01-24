@@ -303,6 +303,10 @@
 	.recovery-header {
 		height: auto;
 	}
+	.error-page .main-text p {
+		font-size: 177px;
+		line-height: 177px;
+	}
 }
 @media screen and (max-width: 450px) {
   .two-input {
@@ -345,4 +349,17 @@
   .btn {
     width: 100%;
   }
+	.error-page .main-text p {
+		font-size: 154px;
+	}
+}
+@media screen and (max-height: 630px) {
+	.error-page .first-text {
+		margin-top: 8%;
+	}
+}
+@media screen and (max-height: 500px) {
+	.error-page .btn {
+		margin-top: 0;
+	}
 }

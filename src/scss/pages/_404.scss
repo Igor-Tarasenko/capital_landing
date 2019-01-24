@@ -1,0 +1,48 @@
+.error-page {
+	background: url("../img/404-bg.png") 50% 0;
+	background-size: cover;
+	height: 100vh;
+	width: 100%;
+	.text-block {
+
+	}
+	.first-text {
+		margin-top: 16%;
+		p {
+			font-family: $m-font;
+			font-weight: 900;
+			font-size: 18px;
+			color: #ffffff;
+			text-align: center;
+			text-transform: uppercase;
+		}
+	}
+	.main-text {
+		p {
+			font-family: $m-font;
+			font-weight: 700;
+			font-size: 250px;
+			line-height: 250px;
+			color: #2af9fc;
+			text-align: center;
+		}
+	}
+	.description-text {
+		p {
+			font-family: $open-font;
+			font-weight: 200;
+			font-size: 18px;
+			color: #ffffff;
+			text-align: center;
+		}
+	}
+	.btn-block {
+		text-align: center;
+		margin: 50px 0;
+		 a {
+			 &:hover {
+				 color: #ffffff;
+			 }
+		 }
+	}
+}
