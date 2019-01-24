@@ -1,0 +1,35 @@
+.thanks-page {
+	background: url("../img/thanks-bg.png");
+	background-size: cover;
+	padding-bottom: 100px;
+	.thanks-text {
+		margin-top: 10%;
+		p {
+			font-family: $open-font;
+			font-weight: 200;
+			font-size: 18px;
+			color: #ffffff;
+			text-align: center;
+			&:first-child {
+				font-family: $m-font;
+				font-weight: 700;
+				font-size: 42px;
+				color: #2af9fc;
+				text-transform: uppercase;
+				margin-bottom: 20px;
+			}
+		}
+	}
+	.thanks-img {
+		text-align: center;
+		img {
+			margin-left: -45px;
+		}
+	}
+	.btn {
+		text-align: center;
+		&:hover {
+			color: #ffffff;
+		}
+	}
+}

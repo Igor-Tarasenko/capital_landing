@@ -161,6 +161,9 @@
 			margin-top: 30px;
 		}
 	}
+	.thanks-page .thanks-img img {
+		width: 100%;
+	}
 }
 @media screen and (max-width: 767px) {
   h1 {
@@ -307,6 +310,12 @@
 		font-size: 177px;
 		line-height: 177px;
 	}
+	.thanks-page .thanks-text p {
+		font-size: 16px;
+		&:first-child {
+			font-size: 30px;
+		}
+	}
 }
 @media screen and (max-width: 450px) {
   .two-input {
@@ -343,6 +352,15 @@
   }
 	.recovery-header h1 {
 		font-size: 29px;
+	}
+	.thanks-page .thanks-text p {
+		font-size: 15px;
+		&:first-child {
+			font-size: 25px;
+		}
+	}
+	.thanks-page .thanks-img img {
+		margin-left: -25px;
 	}
 }
 @media screen and (max-width: 350px) {
