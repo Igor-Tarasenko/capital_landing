@@ -26,6 +26,12 @@
   .top_traiders .top-people_img {
     height: 330px;
   }
+	.recovery-header {
+		height: 530px;
+		h1 {
+			font-size: 40px;
+		}
+	}
 }
 @media screen and (max-width: 991px) {
   .navbar-toggler {
@@ -38,6 +44,15 @@
     margin-top: 12px;
     padding: 0;
   }
+	.navbar-collapse {
+		margin-top: 10px;
+		position: absolute;
+		top: 100%;
+		left: -10px;
+		background: #1c1970;
+		z-index: 20;
+		padding: 0 10px;
+	}
   header .header-menu ul li, header .language ul li {
     margin-left: 0;
   }
@@ -47,15 +62,18 @@
   header .title {
     margin-top: 50px;
   }
-  header {
+  header, .index-header {
     height: 730px;
   }
   .section-1 {
     background-position: 35% 0;
   }
   h2 {
-    font-size: 36px;
+    font-size: 35px;
   }
+	.association-recovery .title p {
+		font-size: 22px;
+	}
   footer .address p, footer .phone a {
     font-size: 14px;
   }
@@ -106,6 +124,43 @@
   .form-about .section-2_img {
     margin-top: 30px;
   }
+	.association-recovery .recovery-title-text {
+		margin: 30px 0 0 0;
+	}
+	.recovery-step {
+		margin-top: 30px;
+	}
+	.association-recovery .recovery-step:nth-child(4) .circles {
+		margin: 15px 0;
+	}
+	.association-recovery .recovery-step:nth-child(3) .circles {
+		margin: 20px 0;
+	}
+	.association-recovery .recovery-step:nth-child(2) .circles {
+		margin: 13px 0;
+	}
+	.association-recovery .recovery-step:first-child .circles {
+		margin: 17px 0;
+	}
+	.section-steps .steps_first-block img {
+		max-width: 130px;
+	}
+	.section-steps .steps_text p {
+		font-size: 16px;
+	}
+	.form-recovery {
+		padding: 50px 0 80px 0;
+		.description {
+			margin-top: 0;
+		}
+		h2 {
+			text-align: center;
+		}
+		.section-2_img {
+			text-align: center;
+			margin-top: 30px;
+		}
+	}
 }
 @media screen and (max-width: 767px) {
   h1 {
@@ -114,6 +169,9 @@
   header .title p {
     font-size: 16px;
   }
+	.index-header {
+		height: 690px;
+	}
   input {
     font-size: 14px;
     padding-bottom: 5px;
@@ -127,7 +185,7 @@
     padding-top: 50px;
   }
   h2 {
-    font-size: 27px;
+    font-size: 25px;
   }
   .footer-logo {
     img {
@@ -163,6 +221,24 @@
   .gif-main-block {
     margin-top: 30px;
   }
+	.association-recovery .title p {
+		font-size: 18px;
+	}
+	.recovery-count {
+		padding: 40px 0 50px 0;
+		.count-block {
+			margin-top: 40px;
+		}
+	}
+	.section-steps .steps_text ul {
+		padding-left: 103px;
+	}
+	.recovery-count-2 {
+		padding: 30px 0 50px 0;
+		.count-block {
+			margin-top: 40px;
+		}
+	}
 }
 @media screen and (max-width: 575px) {
   header .language {
@@ -207,6 +283,26 @@
   .top_traiders .top-people_img {
     height: auto;
   }
+	.recovery-header h1 {
+		font-size: 30px;
+	}
+	.section-steps .steps_text ul {
+		padding-left: 20px;
+	}
+	header .mouse-img {
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+	.index-header {
+		height: auto;
+	}
+	.recovery-header .header-form {
+		margin-top: 0;
+		margin-bottom: 30px;
+	}
+	.recovery-header {
+		height: auto;
+	}
 }
 @media screen and (max-width: 450px) {
   .two-input {
@@ -241,6 +337,9 @@
   .about-header h1 {
     font-size: 23px;
   }
+	.recovery-header h1 {
+		font-size: 29px;
+	}
 }
 @media screen and (max-width: 350px) {
   .btn {

@@ -110,6 +110,57 @@
 		}
 	}
 }
+.section-steps {
+	background: #312480;
+	padding: 55px 0;
+	h2 {
+		font-weight: 700;
+		color: #ffffff;
+		text-align: center;
+		border-bottom: none;
+	}
+	.steps {
+		margin-top: 50px;
+	}
+	.steps_first-block {
+		display: flex;
+		justify-content: space-around;
+		align-items: flex-end;
+		flex-direction: row;
+		height: 126px;
+		p {
+			font-family: $m-font;
+			font-size: 42px;
+			line-height: 42px;
+			font-weight: 900;
+			color: #6cced6;
+		}
+	}
+	.steps_text {
+		margin-top: 20px;
+		p {
+			font-family: $open-font;
+			font-weight: 400;
+			color: #ffffff;
+			font-size: 18px;
+			text-align: center;
+		}
+		ul {
+			padding-left: 20px;
+			list-style-type: disc;
+			margin-top: 10px;
+			li {
+				font-family: $open-font;
+				font-size: 14px;
+				font-weight: 400;
+				color: #ffffff;
+				&:last-child {
+					margin-bottom: 0;
+				}
+			}
+		}
+	}
+}
 .recovery-count-2 {
 	background: #ffb62a;
 	padding: 70px 0 50px 0;
@@ -148,5 +199,6 @@
 	}
 	.section-2_form {
 		margin-top: 0;
+		text-align: center;
 	}
 }
