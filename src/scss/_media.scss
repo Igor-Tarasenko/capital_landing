@@ -177,10 +177,15 @@
 			width: auto;
 		}
 	}
-	.form-about .section-2_img, .form-recovery .section-2_img {
+	.form-about .section-2_img {
 		text-align: center;
 		img {
 			width: auto;
+		}
+	}
+	.form-recovery .section-2_img {
+		img {
+			max-width: 350px;
 		}
 	}
 }
